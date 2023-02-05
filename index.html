@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id = 'start'><h>Welcome to the James Bond image guessing game!</h><p>Click 'start' to answer a series of 15 questions. On each question, you will have the option of matching the image to the James Bond movie by clicking the correct Bond movie button. If you click without unbluring the image at all, you will get 3 points. If you unblur again, and are correct, you will get 2 points. If you unblur again until it is fully clear you will get 1 point if correct. If incorrect at all, you will get 0 points. The maximum score will be 45.  Good luck!</p><button id="start-button">Start</button></div>
+        
+        
+        <div id="image-container" >
+            <div id = 'left'><button id = 'threePoints'>3 points or go clearer?<button id = 'twoPoints'>2 points or go clearer?<button id = 'onePoint'>1 point</button><div id='card'></div></div>
+        <div id='imagediv'><img id="image"></div>
+        
+        <div id='scoreCard'><div id = 'keepScore'>0</div></div>
+        </div>
+        
+            <div id = 'eh'>
+            <div id = 'rightWrong'></div>
+            <button id="next-image" click = 'next'>Next Image</button>
+            </div>
+
+        <div id = 'buttonsId' class = 'buttons'>
+            <button id = 'DN' class = 'buttonImage' data-title="Dr No"> </button>
+            <button id = 'FRWL' class = 'buttonImage' data-title="From russia with Love"></button>
+            <button id = 'GF' class = 'buttonImage' data-title="Goldfinger"></button>
+            <button id = 'TB' class = 'buttonImage' data-title="Thunderball"></button>
+            <button id = 'YOLT' class = 'buttonImage' data-title="You Only Live Twice"></button>
+            <button id ='OHMSS' class='buttonImage' data-title="On her Majestys Secret Service"></button>
+            <button id = 'DAF' class = 'buttonImage' data-title="Diamonds Are Forever"></button>
+            <button id = 'LALD' class='buttonImage' data-title= "Live And Let Die"></button>
+            <button id = 'TMWTGG' class='buttonImage' data-title= "The Man With The Golden Gun"></button>
+            <button id = 'TSWLM' class='buttonImage' data-title="The Spy Who Loved Me"></button>
+            <button id = 'MR' class='buttonImage' data-title="Moonraker"></button>
+            <button id = 'FYEO' class='buttonImage' data-title= "For Your Eyes Only"></button>
+            <button id = 'O' class='buttonImage' data-title= "Octopussy"></button>
+            <button id = 'NSNA' class='buttonImage' data-title= "Never Say Never Again"></button>
+            <button id = 'VTAK' class='buttonImage' data-title="A View to a Kill" ></button>
+            <button id = 'TLD' class='buttonImage' data-title="The Living Daylights"></button>
+            <button id = 'LTK' class='buttonImage' data-title="Licence to Kill"></button>
+            <button id = 'GE' class='buttonImage' data-title="Goldeneye"></button>
+            <button id = 'TND' class='buttonImage' data-title="Tomorrow Never Dies"></button>
+            <button id = 'TWINE' class='buttonImage' data-title="The World Is Not Enough"></button>
+            <button id = 'DAD' class='buttonImage' data-title="Die Another Day"></button>
+            <button id = 'CR' class='buttonImage' data-title="Casino Royale"></button>
+            <button id = 'QOS' class='buttonImage' data-title="Quantum of Solace"></button>
+            <button id = 'SF' class='buttonImage' data-title='Skyfall'> </button>
+            <button id = 'S' class='buttonImage' data-title="Spectre"></button>
+            <button id = 'NTTD' class='buttonImage' data-title="No Time to Die"></button>
+            </div>
+            
+            <div id = 'end'>
+            <div id="result-message"></div>
+            <button id = 'reStart'>Go back the start</button>
+            <div>
+   
+        <script src="index.js"></script>
+    </body>
+</html>

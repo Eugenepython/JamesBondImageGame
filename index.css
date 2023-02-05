@@ -1,0 +1,376 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#left{
+    //border-style: dotted;
+    //border-color: red;
+    width: 20%;
+    height: 50%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    opacity: 90%;
+    background-image: url('images/Barrell.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+#onePoint{
+    color: black;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 15%;
+    font-size: 20px;
+}
+#twoPoints{
+    color: black;
+    margin: 0 auto;
+    background-color: darkgray;
+    color: black;
+    border: 2px solid white;
+    border-radius: 15%;
+    font-size: 20px;
+}
+
+#threePoints{
+    color: black;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15%;
+    font-size: 20px;
+}
+#image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+    //border-style: dotted;
+    align-items: center;
+    background-image: url('images/background.jpg');
+    background-size: contain;
+}
+
+
+#imagediv{
+    max-width:100%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    //border-style: dotted;
+    //border-color: green;
+    height: 100%;
+    width: 60%
+}
+.small{
+    height: 5em;
+}
+
+#image{
+    max-height: 38vh;
+    border-style:double;
+    border-color: brown;
+}
+#scoreCard{
+    //border-style: dotted;
+    //border-color: blue;
+    background-color: blue;
+    width: 20%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 5px solid;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-right: 3%;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonsId {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-image: url('images/background.jpg');
+  background-size: contain;
+}
+
+#startImage {
+    background-image: url('images/L.jpg');
+}
+
+#DN {
+    background-image: url('Buttons/DN.jpg');
+}
+
+#FRWL {
+background-image: url('Buttons/FRWL.jpg');
+}
+#GF {
+background-image: url('Buttons/GF.jpg');
+ }
+
+#TB {
+background-image: url('Buttons/TB.jpg');
+}
+
+#YOLT {
+background-image: url('Buttons/YOLT.jpg');
+}
+
+#OHMSS {
+background-image: url('Buttons/OHMSS.jpg');
+}
+
+#DAF {
+background-image: url('Buttons/DAF.jpg');
+}
+
+#LALD {
+background-image: url('Buttons/LALD.jpg');
+ }
+
+#TMWTGG {
+background-image: url('Buttons/TMWTGG.jpg');
+}
+
+#TSWLM {
+background-image: url('Buttons/TSWLM.jpg');
+}
+
+#MR {
+background-image: url('Buttons/MR.jpg');
+}
+
+#FYEO {
+background-image: url('Buttons/FYEO.jpg');
+}
+
+#O {
+background-image: url('Buttons/O.jpg');
+}
+
+#NSNA {
+background-image: url('Buttons/NSNA.jpg');
+}
+
+#VTAK {
+background-image: url('Buttons/AVTAK.jpg');
+}
+
+#TLD {
+background-image: url('Buttons/TLD.jpg');
+}
+
+#LTK {
+background-image: url('Buttons/LTK.jpg');
+}
+
+#GE {
+background-image: url('Buttons/GE.jpg');
+}
+
+#TND {
+background-image: url('Buttons/TND.jpg');
+;
+
+}
+#TWINE {
+background-image: url('Buttons/TWINE.jpg');
+}
+
+#DAD {
+background-image: url('Buttons/DAD.jpg');
+}
+
+#CR {
+background-image: url('Buttons/CR.jpg');
+}
+
+#QOS {
+background-image: url('Buttons/QOS.jpg');
+}
+
+#SF {
+background-image: url('Buttons/SF.jpg');
+}
+
+#S {
+background-image: url('Buttons/S.jpg')
+}
+
+#NTTD {
+background-image: url('Buttons/NTTD.jpg');
+}
+
+#endImage{
+    background-image: url('images/start.jpg');
+}
+
+.buttonImage{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150Px;
+    width: 120px;
+}
+
+
+#card{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+
+#next-image{
+    color: blue;
+      background-color: #2f3640;
+  color: #f5f5f5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 2px 2px 10px #000000;
+  transition: all 0.2s;
+  margin: 0 auto;
+}
+next-image:hover {
+  background-color: #f5f5f5;
+  color: #2f3640;
+  cursor: pointer;
+  box-shadow: 2px 2px 20px #000000;
+}
+
+#rightWrong{
+    padding: 25px;
+    font-family: 'Action Man', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 10px #000000;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.tick {
+  font-size: 100px;
+  color: green;
+}
+
+.cross {
+  font-size: 100px;
+  color: red;
+}
+
+#start{
+    background-image: url('images/background.jpg');
+    height: 100vh;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+  #start h {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    opacity: 0.9;
+    padding: 10px;
+    font-size: 40px;
+  }
+  #start p {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    opacity: 0.9;
+    padding: 10px;
+  }
+  
+#start-button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+#eh {
+    display : none;
+    background-image: url('images/background.jpg');
+    background-size: contain;
+    height: 100vh;
+    //border-style: dotted;
+}
+
+
+
+
+#reStart {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #5e5e5e;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+#reStart:hover {
+  background-color: #ffffff;
+  color: #5e5e5e;
+  cursor: pointer;
+  
+}
+#result-message p{
+       background-color: rgba(255, 255, 255, 0.5);
+}
+
+#result-message{
+    color: black;
+    height: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#end{
+    background-image: url('images/FINAL.png');
+    background-size: contain;
+    height: 100vh;
+    display: none;
+
+}
